@@ -1,0 +1,13 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    openvpn (2.1.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    yum (3.6.0)
+    yum-epel (0.6.0)
+      yum (~> 3.0)
+
+DEPENDENCIES
+  openvpn (~> 2.1.0)
+
